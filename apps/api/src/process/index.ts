@@ -24,7 +24,7 @@ export class PTY {
       rows: 30,
       cwd: process.env.PROCESS_HOME,
       env: process.env,
-      gid: parseInt(process.env.PROCESS_GID),
+      // gid: parseInt(process.env.PROCESS_GID),
       uid: parseInt(process.env.PROCESS_UID),
     });
 
